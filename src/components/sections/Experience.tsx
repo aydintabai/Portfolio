@@ -2,9 +2,6 @@ import RevealOnScroll from "../RevealOnScroll";
 
 const Experience = () => {
     
-    const frontendSkills = ["React", "TypeScript", "JavaScript", "TailwindCSS"]
-    const backendSkills = ["Python", "Azure", "SQL", "PyTorch"]
-
     return (
         <section id="experience" className="min-h-screen flex items-center justify-center py-20">
             <RevealOnScroll>
