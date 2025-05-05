@@ -21,7 +21,6 @@ function App() {
       <About />
       <Experience />
       <Projects />
-
     </>
   )
 }
