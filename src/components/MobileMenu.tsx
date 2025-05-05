@@ -34,6 +34,13 @@ const MobileMenu = ({menuOpen, setMenuOpen}: NavbarProps) => {
         >
             Projects
         </a>
+
+        <a href="/Aydin-Tabatabai-Resume.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)} className={`bg-blue-500 text-2xl px-4 py-2 rounded-full font-semibold text-white my-4 transform transition-transform duration-300
+                                                                        ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
+                                                                        `}
+        >
+            Resume
+        </a>
     </div>
   );
 };

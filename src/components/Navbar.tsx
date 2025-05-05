@@ -36,6 +36,15 @@ const Navbar = ({menuOpen, setMenuOpen}: NavbarProps) => {
             <a href="#projects" className="text-gray-300 hover:text-white transition-colors">
               Projects
             </a>
+
+            <a
+              href="/Aydin-Tabatabai-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600 transition"
+            >
+              Resume
+            </a>
           </div>
         </div>
       </div>
@@ -53,14 +62,14 @@ const Navbar = ({menuOpen, setMenuOpen}: NavbarProps) => {
 //             <a href="#experience" className="hover:text-blue-500 transition">Experience</a>
 //             <a href="#projects" className="hover:text-blue-500 transition">Projects</a>
   
-//             <a
-//               href="/Aydin-Tabatabai-Resume.pdf"
-//               target="_blank"
-//               rel="noopener noreferrer"
-//               className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
-//             >
-//               Resume
-//             </a>
+            // <a
+            //   href="/Aydin-Tabatabai-Resume.pdf"
+            //   target="_blank"
+            //   rel="noopener noreferrer"
+            //   className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+            // >
+            //   Resume
+            // </a>
 //           </div>
 //         </div>
 //       </nav>
