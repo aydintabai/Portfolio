@@ -10,25 +10,25 @@ const MobileMenu = ({menuOpen, setMenuOpen}: NavbarProps) => {
                     ${menuOpen ? "h-screen opacity-100 pointer-events-auto" : "h-0 opacity-0 pointer-events-none"}
                     `}
     >
-        <button onClick={() => setMenuOpen(false)} className="absolute top-6 right-6 text-white text-3xl focus:outline-none cursor-pointer" aria-label="Close Menu">
+        <button onClick={() => setMenuOpen(false)} className="absolute top-6 right-6 text-black text-3xl focus:outline-none cursor-pointer" aria-label="Close Menu">
             &times;
         </button>
 
-        <a href="#about" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+        <a href="#about" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-black my-4 transform transition-transform duration-300
                                                                         ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
                                                                         `}
         >
             About
         </a>
 
-        <a href="#experience" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+        <a href="#experience" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-black my-4 transform transition-transform duration-300
                                                                         ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
                                                                         `}
         >
             Experience
         </a>
 
-        <a href="#projects" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+        <a href="#projects" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-black my-4 transform transition-transform duration-300
                                                                         ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
                                                                         `}
         >

@@ -18,26 +18,30 @@ const Projects = () => {
             <ProjectCard
               image={joseImage}
               title="Deep Learning Model Evaluation"
-              subtitle="Developed and benchmarked 7 convolutional neural network models to explore the effects of architectural and training choices."
+              subtitle="Developed and benchmarked 7 convolutional neural networks to explore the effects of architectural and training choices."
               link="https://github.com/aydintabai/Deep-Learning-Model-Evaluation"
+              tags={["Python", "PyTorch", "Matplotlib"]}
             />
             <ProjectCard
               image={deepImage}
               title="Volleyball RL"
               subtitle="AI agent trained in Gymnasium to play volleyball using 4 different Reinforcement Learning Algorithms."
               link="https://github.com/aydintabai/Volleyball-RL"
+              tags={["Python", "PyTorch", "Gymnasium"]}
             />
             <ProjectCard
               image={joseImage}
               title="Supervised Learning Algorithm Comparison"
               subtitle="Designed and implemented experiments to evaluate the performance of Random Forest, SVM, and Logistic Regression on three UCI datasets."
               link="https://github.com/aydintabai/Supervised-Learning-Algorithm-Comparison"
+              tags={["Python", "Scikit-learn", "Matplotlib"]}
             />
             <ProjectCard
               image={deepImage}
               title="AI Academic Impact Case Study"
               subtitle="Conducted a comprehensive analysis on university course dataset to assess the impact of AI tools on academic performance."
               link="https://github.com/aydintabai/AI-Academic-Impact-Case-Study"
+              tags={["Python", "NumPy", "Seaborn"]}
             />
           </div>
         </div>
