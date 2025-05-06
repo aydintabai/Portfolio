@@ -9,7 +9,7 @@ const About = () => {
         <section id="about" className="flex items-center justify-center">
             <RevealOnScroll>
                 <div className="max-w-3xl mx-auto px-4">
-                    <h2 className="text-3xl font-bold mb-8 text-center">
+                    <h2 className="text-5xl font-bold mb-15 text-center">
                         About Me
                     </h2>
 

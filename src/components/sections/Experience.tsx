@@ -6,7 +6,7 @@ const Experience = () => {
         <section id="experience" className="flex items-center justify-center pt-50">
             <RevealOnScroll>
                 <div className="max-w-3xl mx-auto px-4">
-                    <h2 className="text-3xl font-bold mb-8 text-center">
+                    <h2 className="text-5xl font-bold mb-15 text-center">
                         Experience
                     </h2>
 
