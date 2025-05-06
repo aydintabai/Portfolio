@@ -16,7 +16,7 @@ const Projects = () => {
                                 Deep Learning Model Evaluation
                             </h3>
 
-                            <p className="text-gray-400 mb-4">
+                            <p className="text-black-400 mb-4">
                                 Developed and benchmarked 7 convolutional neural network models to explore the effects of architectural and training choices.
                             </p>
 
@@ -29,7 +29,7 @@ const Projects = () => {
                             </div>
 
                             <div className="flex justify-between items-center">
-                                <a href="#" className="text-blue-400 hover:text-blue-300 transition colors my-4">
+                                <a href="#" className="text-blue-500 hover:text-blue-300 transition colors my-4">
                                     View Project →
                                 </a>
                             </div>
@@ -40,7 +40,7 @@ const Projects = () => {
                                 Supervised Learning Algorithm Comparison
                             </h3>
 
-                            <p className="text-gray-400 mb-4">
+                            <p className="text-black-400 mb-4">
                                 Designed and implemented experiments to evaluate the performance of Random Forest, SVM, and Logistic Regression on three UCI datasets.
                             </p>
 
@@ -53,7 +53,7 @@ const Projects = () => {
                             </div>
 
                             <div className="flex justify-between items-center">
-                                <a href="#" className="text-blue-400 hover:text-blue-300 transition colors my-4">
+                                <a href="#" className="text-blue-500 hover:text-blue-300 transition colors my-4">
                                     View Project →
                                 </a>
                             </div>
@@ -64,7 +64,7 @@ const Projects = () => {
                                 AI Academic Impact Case Study
                             </h3>
 
-                            <p className="text-gray-400 mb-4">
+                            <p className="text-black-400 mb-4">
                                 Conducted a comprehensive analysis on university course dataset to assess the impact of AI tools on academic performance.
                             </p>
 
@@ -77,7 +77,7 @@ const Projects = () => {
                             </div>
 
                             <div className="flex justify-between items-center">
-                                <a href="#" className="text-blue-400 hover:text-blue-300 transition colors my-4">
+                                <a href="#" className="text-blue-500 hover:text-blue-300 transition colors my-4">
                                     View Project →
                                 </a>
                             </div>
@@ -88,7 +88,7 @@ const Projects = () => {
                                 Volleyball RL
                             </h3>
 
-                            <p className="text-gray-400 mb-4">
+                            <p className="text-black-400 mb-4">
                                 Developed and trained an AI agent to play volleyball using different reinforcement learning algorithms in OpenAI Gymnasium.
                             </p>
 
@@ -101,7 +101,7 @@ const Projects = () => {
                             </div>
 
                             <div className="flex justify-between items-center">
-                                <a href="#" className="text-blue-400 hover:text-blue-300 transition colors my-4">
+                                <a href="#" className="text-blue-500 hover:text-blue-300 transition colors my-4">
                                     View Project →
                                 </a>
                             </div>
