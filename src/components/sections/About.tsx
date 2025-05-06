@@ -13,13 +13,13 @@ const About = () => {
                         About Me
                     </h2>
 
-                    <div className="rounded-xl p-8 border-black/50 border hover:-translate-y-1 transition-all">
+                    <div className="rounded-xl p-8 border-black/50 border transition-all">
                         <p className="text-black-300 mb-6">
                             I am a passionate developer who has experience in machine learning, software engineering, and data science.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                            <div className="rounded-xl p-6 transition-all">
                                 <h3 className="text-xl font-bold mb-4">
                                     Frontend
                                 </h3>
@@ -33,7 +33,7 @@ const About = () => {
                                 </div>
                             </div>
 
-                            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                            <div className="rounded-xl p-6 transition-all">
                                 <h3 className="text-xl font-bold mb-4">
                                     Backend
                                 </h3>
@@ -50,7 +50,7 @@ const About = () => {
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                        <div className="p-6 rounded-xl border-black/50 border hover:-translate-y-1 transition-all">
+                        <div className="p-6 rounded-xl border-black/50 border transition-all">
                             <h3 className="text-xl font-bold mb-4">
                                 🏫 Education
                             </h3>
@@ -66,7 +66,7 @@ const About = () => {
                             </ul>
                         </div>
 
-                        <div className="p-6 rounded-xl border-black/50 border hover:-translate-y-1 transition-all">
+                        <div className="p-6 rounded-xl border-black/50 border transition-all">
                             <h3 className="text-xl font-bold mb-4">
                                 💼 Work Experience
                             </h3>
