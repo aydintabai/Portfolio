@@ -19,7 +19,7 @@ const Projects = () => {
               image={joseImage}
               title="Deep Learning Model Evaluation"
               subtitle="Developed and benchmarked 7 convolutional neural network models to explore the effects of architectural and training choices."
-              link="#"
+              link="https://github.com/aydintabai/Deep-Learning-Model-Evaluation"
             />
             <ProjectCard
               image={deepImage}
@@ -31,13 +31,13 @@ const Projects = () => {
               image={joseImage}
               title="Supervised Learning Algorithm Comparison"
               subtitle="Designed and implemented experiments to evaluate the performance of Random Forest, SVM, and Logistic Regression on three UCI datasets."
-              link="#"
+              link="https://github.com/aydintabai/Supervised-Learning-Algorithm-Comparison"
             />
             <ProjectCard
               image={deepImage}
               title="AI Academic Impact Case Study"
               subtitle="Conducted a comprehensive analysis on university course dataset to assess the impact of AI tools on academic performance."
-              link="https://github.com/aydintabai/Volleyball-RL"
+              link="https://github.com/aydintabai/AI-Academic-Impact-Case-Study"
             />
           </div>
         </div>
