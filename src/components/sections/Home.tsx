@@ -1,4 +1,5 @@
 import RevealOnScroll from "../RevealOnScroll";
+import profilePic from "../../assets/headshot.jpeg";
 
 const Home = () => {
   
@@ -6,6 +7,12 @@ const Home = () => {
         <section id="home" className="min-h-screen flex items-center justify-center relative">
             <RevealOnScroll>
                 <div className="text-center z-10 px-4">
+                    <img
+                        src={profilePic}
+                        alt="Aydin Tabatabai"
+                        className="w-48 h-48 mx-auto mb-6 rounded-full shadow-lg object-cover"
+                    />
+                    
                     <h1 className="text-5xl md:text-7xl font-semibold mb-6 leading-right">
                         Hi, I'm Aydin Tabatabai
                     </h1>
