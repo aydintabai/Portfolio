@@ -6,6 +6,7 @@ html, body {
     font-family: "Outfit", sans-serif;
     background: #FFFFFF;
     color: #0a0a0a;
+    scroll-behavior: smooth;
 }
 
 .reveal {

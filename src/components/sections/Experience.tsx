@@ -3,7 +3,7 @@ import RevealOnScroll from "../RevealOnScroll";
 const Experience = () => {
     
     return (
-        <section id="experience" className="min-h-screen flex items-center justify-center py-20">
+        <section id="experience" className="flex items-center justify-center pt-50">
             <RevealOnScroll>
                 <div className="max-w-3xl mx-auto px-4">
                     <h2 className="text-3xl font-bold mb-8 text-center">
