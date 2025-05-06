@@ -11,8 +11,7 @@ const Home = () => {
                     </h1>
 
                     <p className="text-black-400 text-lg mb-8 max-w-lg mx-auto">
-                        I am currently a senior at UC San Diego majoring in Cognitive Science with a specialization in Machine Learning and Neural Computation,
-                        in addition to minors in both Computer Science and General Biology.
+                        I am a passionate developer who has experience in machine learning, software engineering, and data science.
                     </p>
 
                     <div className="flex justify-center space-x-4">

@@ -6,7 +6,7 @@ const About = () => {
     const backendSkills = ["Python", "Azure", "SQL", "PyTorch"]
 
     return (
-        <section id="about" className="flex items-center justify-center">
+        <section id="about" className="scroll-mt-24 flex items-center justify-center">
             <RevealOnScroll>
                 <div className="max-w-3xl mx-auto px-4">
                     <h2 className="text-5xl font-bold mb-15 text-center">
@@ -15,7 +15,8 @@ const About = () => {
 
                     <div className="rounded-xl p-8 border-black/50 border transition-all">
                         <p className="text-black-300 mb-6">
-                            I am a passionate developer who has experience in machine learning, software engineering, and data science.
+                            I am currently a senior at UC San Diego majoring in Cognitive Science with a specialization in Machine Learning and Neural Computation,
+                            in addition to minors in both Computer Science and General Biology.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
