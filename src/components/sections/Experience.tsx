@@ -10,12 +10,12 @@ const Experience = () => {
                         Experience
                     </h2>
 
-                    <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+                    <div className="rounded-xl p-8 border-black/50 border hover:-translate-y-1 transition-all">
                         <h4 className="font-semibold">
                             Machine Learning/AI Intern @ Soaper (Jan 2025 - Present)
                         </h4>
                         
-                        <p className="text-gray-300 mb-6">
+                        <p className="text-black-300 mb-6">
                             Fine-tuned LLMs using LoRA to generate structured medical responses, using synthetic training datasets.
                         </p>
 

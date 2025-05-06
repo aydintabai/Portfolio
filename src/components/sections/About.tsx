@@ -13,8 +13,8 @@ const About = () => {
                         About Me
                     </h2>
 
-                    <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-                        <p className="text-gray-300 mb-6">
+                    <div className="rounded-xl p-8 border-black/50 border hover:-translate-y-1 transition-all">
+                        <p className="text-black-300 mb-6">
                             I am a passionate developer who has experience in machine learning, software engineering, and data science.
                         </p>
 
@@ -50,12 +50,12 @@ const About = () => {
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                        <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                        <div className="p-6 rounded-xl border-black/50 border hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">
                                 🏫 Education
                             </h3>
 
-                            <ul className="list-disc list-inside text-gray-300 space-y-2">
+                            <ul className="list-disc list-inside text-black-300 space-y-2">
                                 <li>
                                     <strong> B.S. in Cognitive Science, with a specialization in Machine Learning </strong> - University of California, San Diego (2025)
                                 </li>
@@ -66,12 +66,12 @@ const About = () => {
                             </ul>
                         </div>
 
-                        <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                        <div className="p-6 rounded-xl border-black/50 border hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">
                                 💼 Work Experience
                             </h3>
 
-                            <div className="space-y-4 text-gray-300">
+                            <div className="space-y-4 text-black-300">
                                 <div>
                                     <h4 className="font-semibold">
                                         Machine Learning/AI Intern @ Soaper (Jan 2025 - Present)

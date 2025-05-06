@@ -10,7 +10,7 @@ const Home = () => {
                         Hi, I'm Aydin Tabatabai
                     </h1>
 
-                    <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
+                    <p className="text-black-400 text-lg mb-8 max-w-lg mx-auto">
                         I am currently a senior at UC San Diego majoring in Cognitive Science with a specialization in Machine Learning and Neural Computation,
                         in addition to minors in both Computer Science and General Biology.
                     </p>

@@ -7,11 +7,11 @@ const Projects = () => {
             <RevealOnScroll>
                 <div className="max-w-5xl mx-auto px-4">
                     <h2 className="text-3xl font-bold mb-8 text-center">
-                        Featured Projects
+                        Projects
                     </h2>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+                        <div className="p-6 rounded-xl border border-black/50 hover:-translate-y-1 hover:border-blue-500/50 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
                             <h3 className="text-xl font-bold mb-2">
                                 Deep Learning Model Evaluation
                             </h3>
@@ -35,7 +35,7 @@ const Projects = () => {
                             </div>
                         </div>
 
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+                        <div className="p-6 rounded-xl border border-black/50 hover:-translate-y-1 hover:border-blue-500/50 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
                             <h3 className="text-xl font-bold mb-2">
                                 Supervised Learning Algorithm Comparison
                             </h3>
@@ -59,7 +59,7 @@ const Projects = () => {
                             </div>
                         </div>
 
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+                        <div className="p-6 rounded-xl border border-black/50 hover:-translate-y-1 hover:border-blue-500/50 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
                             <h3 className="text-xl font-bold mb-2">
                                 AI Academic Impact Case Study
                             </h3>
@@ -83,7 +83,7 @@ const Projects = () => {
                             </div>
                         </div>
 
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+                        <div className="p-6 rounded-xl border border-black/50 hover:-translate-y-1 hover:border-blue-500/50 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
                             <h3 className="text-xl font-bold mb-2">
                                 Volleyball RL
                             </h3>
