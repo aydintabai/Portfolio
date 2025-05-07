@@ -14,7 +14,7 @@ const Home = () => {
                     />
                     
                     <h1 className="text-5xl md:text-7xl font-semibold mb-6 leading-right">
-                        Hi, I'm <span className="text-orange-500"> Aydin </span> Tabatabai
+                        Hi, I'm Aydin Tabatabai
                     </h1>
 
                     <p className="text-black-400 text-lg mb-8 max-w-lg mx-auto">
