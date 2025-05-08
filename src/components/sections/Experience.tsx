@@ -19,12 +19,12 @@ const Experience = () => {
     return (
         <section id="experience" className="flex items-center justify-center pt-50">
             <RevealOnScroll>
-                <div className="max-w-5xl mx-auto">
+                <div className="max-w-5xl mx-auto px-4">
                     <h2 className="text-5xl font-bold mb-15 text-center">Experience</h2>
 
                     <div className="relative border-l border-gray-300 pl-6">
                         {experiences.map((exp, idx) => (
-                            <div key={idx} className="mb-10 relative">
+                            <div key={idx} className="relative">
                                 {/* Experience Content */}
                                 <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-lg transition-all">
                                     <div className="flex justify-between items-center mb-2">
