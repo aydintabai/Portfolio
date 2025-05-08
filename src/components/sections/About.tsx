@@ -1,90 +1,78 @@
 import RevealOnScroll from "../RevealOnScroll";
+import profilePic from "../../assets/headshot.jpeg";
 
 const About = () => {
-    
-    const frontendSkills = ["React", "TypeScript", "JavaScript", "TailwindCSS"]
-    const backendSkills = ["Python", "Azure", "SQL", "PyTorch"]
 
     return (
         <section id="about" className="scroll-mt-24 flex items-center justify-center">
             <RevealOnScroll>
-                <div className="max-w-3xl mx-auto px-4">
-                    <h2 className="text-5xl font-bold mb-15 text-center">
-                        About Me
-                    </h2>
-
-                    <div className="rounded-xl p-8 border-black/50 border transition-all">
-                        <p className="text-black-300 mb-6">
-                            I am currently a senior at UC San Diego majoring in Cognitive Science with a specialization in Machine Learning and Neural Computation,
-                            in addition to minors in both Computer Science and General Biology.
-                        </p>
-
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div className="rounded-xl p-6 transition-all">
-                                <h3 className="text-xl font-bold mb-4">
-                                    Frontend
-                                </h3>
-
-                                <div className="flex flex-wrap gap-2">
-                                    {frontendSkills.map((tech, key) =>(
-                                        <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
-                                            {tech}
-                                        </span>
-                                    ))}
-                                </div>
-                            </div>
-
-                            <div className="rounded-xl p-6 transition-all">
-                                <h3 className="text-xl font-bold mb-4">
-                                    Backend
-                                </h3>
-
-                                <div className="flex flex-wrap gap-2">
-                                    {backendSkills.map((tech, key) =>(
-                                        <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
-                                            {tech}
-                                        </span>
-                                    ))}
-                                </div>
-                            </div>
+                <div className="max-w-6xl mx-auto px-8">
+                    {/* Top: Bio and Image */}
+                    <div className="flex flex-col md:flex-row items-center gap-10 mb-16">
+                        {/* Text */}
+                        <div className="flex-1 text-gray-800">
+                            <h2 className="text-5xl font-bold mb-6">
+                                About Me
+                            </h2>
+                            <p className="mb-4 leading-relaxed">
+                                Hey! I’m Aydin, a senior at UC San Diego majoring in Cognitive Science with a specialization in Machine Learning and Neural Computation.
+                                I’ve always enjoyed breaking things apart to see how they work — and now I spend my time building intelligent tools that make people's lives easier.
+                            </p>
+                            <p className="leading-relaxed">
+                                I've interned as an AI/ML engineer, fine-tuning LLMs and building full-stack features in real EMR systems. I'm passionate about using technology
+                                to create meaningful, user-centered solutions — and I’m always curious about what I can learn next.
+                            </p>
                         </div>
+
+                        {/* Image */}
+                        <img
+                        src={profilePic}
+                        alt="Aydin Tabatabai"
+                        className="w-60 h-60 rounded-xl object-cover shadow-lg"
+                        />
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                        <div className="p-6 rounded-xl border-black/50 border transition-all">
-                            <h3 className="text-xl font-bold mb-4">
-                                🏫 Education
+                    <h2 className="text-3xl font-bold mb-6">
+                        Skills
+                    </h2>
+
+                    {/* Skills */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-gray-700 text-sm">
+                        <div>
+                            <h3 className="font-bold text-base text-black mb-2">
+                                Languages
                             </h3>
-
-                            <ul className="list-disc list-inside text-black-300 space-y-2">
-                                <li>
-                                    <strong> B.S. in Cognitive Science, with a specialization in Machine Learning </strong> - University of California, San Diego (2025)
-                                </li>
-
-                                <li>
-                                    Relevant Coursework: Data Structures & Algorithms, Deep Learning, AI Algorithms...
-                                </li>
-                            </ul>
+                            <p>
+                                Python, Java, C/C++, SQL (Postgres), JavaScript, Swift, Bash, HTML/CSS, MATLAB
+                            </p>
                         </div>
 
-                        <div className="p-6 rounded-xl border-black/50 border transition-all">
-                            <h3 className="text-xl font-bold mb-4">
-                                💼 Work Experience
+                        <div>
+                            <h3 className="font-bold text-base text-black mb-2">
+                                Libraries/Frameworks
                             </h3>
-
-                            <div className="space-y-4 text-black-300">
-                                <div>
-                                    <h4 className="font-semibold">
-                                        Machine Learning/AI Intern @ Soaper (Jan 2025 - Present)
-                                    </h4>
-
-                                    <p>
-                                        Fine-tuned LLMs using LoRA to generate structured medical responses, using synthetic training datasets.
-                                    </p>
-                                </div>
-                            </div>
+                            <p>
+                                PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, FastAPI, SwiftUI
+                            </p>
                         </div>
 
+                        <div>
+                            <h3 className="font-bold text-base text-black mb-2">
+                                Tools/Technologies
+                            </h3>
+                            <p>
+                                Git, Azure, LaTeX
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 className="font-bold text-base text-black mb-2">
+                                Soft Skills
+                            </h3>
+                            <p>
+                                Communication, Creative Problem Solving, Leadership
+                            </p>
+                        </div>
                     </div>
                 </div>
             </RevealOnScroll>
