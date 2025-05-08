@@ -28,13 +28,13 @@ const Experience = () => {
                                 {/* Experience Content */}
                                 <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-lg transition-all">
                                     <div className="flex justify-between items-center mb-2">
-                                        <h3 className="text-lg font-semibold text-black">
+                                        <h3 className="text-xl font-semibold text-black">
                                             {exp.title} @<span className="text-blue-500"> {exp.company}</span>
                                         </h3>
                                         <span className="text-sm text-gray-500">{exp.date}</span>
                                     </div>
 
-                                    <ul className="list-disc list-inside text-gray-700 mb-4 space-y-1">
+                                    <ul className="list-disc list-inside text-gray-700 mb-4 space-y-1 text-lg">
                                         {exp.description.map((point, i) => (
                                             <li key={i}>{point}</li>
                                         ))}
