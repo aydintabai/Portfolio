@@ -14,13 +14,13 @@ const About = () => {
                             <h2 className="text-5xl font-bold mb-6">
                                 About Me
                             </h2>
-                            <p className="mb-4 leading-relaxed">
+                            <p className="text-lg mb-4 leading-relaxed">
                                 Hey! I'm Aydin, a senior at UC San Diego majoring in Cognitive Science with a specialization in Machine Learning and Neural Computation.
-                                I've always enjoyed breaking things apart to see how they work — and now I spend my time building intelligent tools that make people's lives easier.
+                                I've always enjoyed breaking things apart to see how they work and now I spend my time building intelligent tools that make people's lives easier.
                             </p>
-                            <p className="leading-relaxed">
+                            <p className="text-lg leading-relaxed">
                                 I've interned as an AI/ML engineer, fine-tuning LLMs and building full-stack features in real EMR systems. I'm passionate about using technology
-                                to create meaningful, user-centered solutions — and I'm always curious about what I can learn next.
+                                to create meaningful, user-centered solutions and I'm always curious about what I can learn next.
                             </p>
                         </div>
 
@@ -37,9 +37,9 @@ const About = () => {
                     </h2>
 
                     {/* Skills */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-gray-700 text-sm">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-gray-700 text-lg">
                         <div>
-                            <h3 className="font-bold text-base text-black mb-2">
+                            <h3 className="text-lg font-bold text-base text-black mb-2">
                                 Languages
                             </h3>
                             <p>
@@ -48,7 +48,7 @@ const About = () => {
                         </div>
 
                         <div>
-                            <h3 className="font-bold text-base text-black mb-2">
+                            <h3 className="text-lg font-bold text-base text-black mb-2">
                                 Libraries/Frameworks
                             </h3>
                             <p>
@@ -57,7 +57,7 @@ const About = () => {
                         </div>
 
                         <div>
-                            <h3 className="font-bold text-base text-black mb-2">
+                            <h3 className="text-lg font-bold text-base text-black mb-2">
                                 Tools/Technologies
                             </h3>
                             <p>
@@ -66,7 +66,7 @@ const About = () => {
                         </div>
 
                         <div>
-                            <h3 className="font-bold text-base text-black mb-2">
+                            <h3 className="text-lg font-bold text-base text-black mb-2">
                                 Soft Skills
                             </h3>
                             <p>
