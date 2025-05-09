@@ -1,5 +1,6 @@
 import RevealOnScroll from "../RevealOnScroll";
 import profilePic from "../../assets/headshot.jpeg";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Home = () => {
   
@@ -28,6 +29,19 @@ const Home = () => {
 
                         <a href="#projects" className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">
                             View Projects
+                        </a>
+                    </div>
+
+                    {/* Social Icons */}
+                    <div className="flex justify-center gap-6 text-black-500 text-2xl pt-6">
+                        <a href="https://github.com/aydintabai" target="_blank" rel="noopener noreferrer">
+                            <FaGithub className="hover:scale-120 transition-all duration-300" />
+                        </a>
+                        <a href="https://linkedin.com/in/aydintabai" target="_blank" rel="noopener noreferrer">
+                            <FaLinkedin className="hover:scale-120 transition-all duration-300" />
+                        </a>
+                        <a href="mailto:aydintabai@gmail.com">
+                            <FaEnvelope className="hover:scale-120 transition-all duration-300" />
                         </a>
                     </div>
                 </div>
