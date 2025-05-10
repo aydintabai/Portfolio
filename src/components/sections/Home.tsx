@@ -9,7 +9,7 @@ const Home = () => {
             <RevealOnScroll>
                 <div className="text-center z-10 px-4">
                     <h1 className="text-5xl md:text-7xl font-semibold mb-6 leading-right">
-                        Hi, I'm <span className="flex justify-center"><VaraText text="Aydin Tabatabai" /></span>
+                        Hi, I'm <span className="flex justify-center pl-10 pt-4"><VaraText text="Aydin Tabatabai" /></span>
                     </h1>
 
                     <p className="text-black-400 text-lg mb-8 max-w-lg mx-auto">
