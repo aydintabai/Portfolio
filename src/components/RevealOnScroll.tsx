@@ -20,7 +20,7 @@ const RevealOnScroll = ({ children }: PropsWithChildren) => {
       }, []);
 
     return (
-        <div ref={ref} className="reveal ">
+        <div ref={ref} className="reveal">
             {children}
         </div>
     );
