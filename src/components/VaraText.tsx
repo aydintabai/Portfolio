@@ -17,7 +17,7 @@ const VaraText = ({ text }: VaraTextProps) => {
       [
         {
           text: text,
-          fontSize: 48,
+          fontSize: 70,
           strokeWidth: 2.5,
           color: "black",
           duration:4000,
@@ -29,7 +29,12 @@ const VaraText = ({ text }: VaraTextProps) => {
     );
   }, []);
 
-  return <div id="vara-container" className="w-full"></div>;
+  return (
+    <div
+      id="vara-container"
+      className="w-[750px] whitespace-nowrap overflow-visible inline-block"
+    />
+  );
 };
 
 export default VaraText;
