@@ -18,7 +18,7 @@ const VaraText = ({ text }: VaraTextProps) => {
         {
           text: text,
           fontSize: 70,
-          strokeWidth: 2.5,
+          strokeWidth: 2.25,
           color: "black",
           duration:4000,
           delay:750,
