@@ -17,13 +17,13 @@ const VaraText = ({ text }: VaraTextProps) => {
       [
         {
           text: text,
-          fontSize: 70,
+          fontSize: 65,
           strokeWidth: 2.25,
           color: "black",
           duration:4000,
-          delay:750,
-          x:3,
-	        y:5,
+          delay:800,
+          x:1,
+	        y:22,
         },
       ]
     );
@@ -32,7 +32,7 @@ const VaraText = ({ text }: VaraTextProps) => {
   return (
     <div
       id="vara-container"
-      className="w-[750px] whitespace-nowrap overflow-visible inline-block"
+      className="w-[650px] whitespace-nowrap overflow-visible inline-block"
     />
   );
 };

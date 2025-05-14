@@ -14,7 +14,7 @@ const Home = () => {
                         alt="Aydin Tabatabai"
                         className="w-48 h-48 mx-auto mb-6 rounded-full shadow-lg object-cover"
                     />
-                    <div className="flex">
+                    <div className="flex items-center justify-center relative">
                         <h1 className="text-5xl md:text-7xl font-semibold mb-3 leading-right">
                             Hi, I'm
                         </h1>
