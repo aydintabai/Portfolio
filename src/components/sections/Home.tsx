@@ -14,14 +14,16 @@ const Home = () => {
                         alt="Aydin Tabatabai"
                         className="w-48 h-48 mx-auto mb-6 rounded-full shadow-lg object-cover"
                     />
+                    <div className="flex">
+                        <h1 className="text-5xl md:text-7xl font-semibold mb-3 leading-right">
+                            Hi, I'm
+                        </h1>
 
-                    <h1 className="text-5xl md:text-7xl font-semibold mb-3 leading-right">
-                        Hi, I'm
-                    </h1>
-
-                    <div className="flex justify-center pl-10 pt-4 mt-3">
-                        <VaraText text="Aydin Tabatabai"/>
+                        <div className="ml-5">
+                            <VaraText text="Aydin Tabatabai"/>
+                        </div>
                     </div>
+
 
                     <p className="text-black-400 text-lg mb-8 max-w-lg mx-auto">
                         I am a passionate developer who has experience in machine learning, software engineering, and data science.
