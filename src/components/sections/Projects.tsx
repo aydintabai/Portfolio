@@ -8,7 +8,7 @@ import volleyImage from "../../assets/volley.jpeg";
 const Projects = () => {
   
     return (
-    <section id="projects" className="flex items-center justify-center pt-50">
+    <section id="projects" className="scroll-mt-24 flex items-center justify-center">
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-5xl font-bold mb-15 text-center">
