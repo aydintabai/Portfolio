@@ -61,7 +61,7 @@ const About = () => {
                                 Tools/Technologies
                             </h3>
                             <p>
-                                Git, Azure, LaTeX
+                                Git, GitHub, Azure, LaTeX
                             </p>
                         </div>
 
