@@ -43,7 +43,7 @@ const About = () => {
                                 Languages
                             </h3>
                             <p>
-                                Python, Java, C/C++, SQL (Postgres), JavaScript, Swift, Bash, HTML/CSS, MATLAB
+                                Python, Java, C/C++, SQL (Postgres), JavaScript/TypeScript, Swift, Bash, HTML/CSS, MATLAB
                             </p>
                         </div>
 
@@ -52,7 +52,7 @@ const About = () => {
                                 Libraries/Frameworks
                             </h3>
                             <p>
-                                PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, FastAPI, SwiftUI
+                                PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, FastAPI, React, SwiftUI
                             </p>
                         </div>
 
