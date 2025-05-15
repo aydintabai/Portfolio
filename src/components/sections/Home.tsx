@@ -1,5 +1,5 @@
 import RevealOnScroll from "../RevealOnScroll";
-import profilePic from "../../assets/headshot.jpeg";
+import profilePic from "../../assets/gradPic.jpeg";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import VaraText from "../VaraText";
 
