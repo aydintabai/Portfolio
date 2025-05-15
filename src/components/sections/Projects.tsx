@@ -1,9 +1,10 @@
 import RevealOnScroll from "../RevealOnScroll";
 import ProjectCard from "../ProjectCard";
 
-import joseImage from "../../assets/jose.jpeg";
 import deepImage from "../../assets/deep.jpeg";
 import volleyImage from "../../assets/volley.jpeg";
+import classImage from "../../assets/classification.jpeg";
+import studyImage from "../../assets/study.jpeg";
 
 const Projects = () => {
   
@@ -31,14 +32,14 @@ const Projects = () => {
               tags={["Python", "PyTorch", "Gymnasium"]}
             />
             <ProjectCard
-              image={joseImage}
+              image={classImage}
               title="Supervised Learning Algorithm Comparison"
               subtitle="Designed and implemented experiments to evaluate the performance of Random Forest, SVM, and Logistic Regression on three UCI datasets."
               link="https://github.com/aydintabai/Supervised-Learning-Algorithm-Comparison"
               tags={["Python", "Scikit-learn", "Matplotlib"]}
             />
             <ProjectCard
-              image={joseImage}
+              image={studyImage}
               title="AI Academic Impact Case Study"
               subtitle="Conducted a comprehensive analysis on university course dataset to assess the impact of AI tools on academic performance."
               link="https://github.com/aydintabai/AI-Academic-Impact-Case-Study"
