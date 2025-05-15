@@ -21,7 +21,7 @@ const Home = () => {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ delay: 0.2, duration: 0.6 }}
                 />
-                
+
                 <div className="text-center md:text-left flex-1">
                     <motion.h1
                         className="text-5xl md:text-3xl font-semibold mb-3 leading-right"
@@ -58,8 +58,6 @@ const Home = () => {
                     >
                         <a
                             href="#experience"
-                            target="_blank"
-                            rel="noopener noreferrer"
                             className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
                         >
                             View Experience
