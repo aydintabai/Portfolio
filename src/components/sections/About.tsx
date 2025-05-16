@@ -6,7 +6,7 @@ const About = () => {
     return (
         <section id="about" className="scroll-mt-24 flex items-center justify-center pb-50">
             <RevealOnScroll>
-                <div className="max-w-6xl mx-auto px-4">
+                <div className="max-w-6xl mx-auto px-10 md:px-4">
                     {/* Top: Bio and Image */}
                     <div className="flex flex-col md:flex-row items-center gap-10 mb-16">
                         {/* Text */}
