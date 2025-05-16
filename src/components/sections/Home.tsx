@@ -6,7 +6,7 @@ import VaraText from "../VaraText";
 const Home = () => {
   
     return (
-        <section id="home" className="min-h-screen flex items-center justify-center relative">
+        <section id="home" className="min-h-screen flex items-center justify-center relative mt-8 md:mt-0">
             <motion.div
                 className="max-w-6xl w-full flex flex-col md:flex-row items-center justify-between gap-12"
                 initial={{ opacity: 0, y: 30 }}
@@ -16,7 +16,7 @@ const Home = () => {
                 <motion.img
                     src={profilePic}
                     alt="Aydin Tabatabai"
-                    className="w-56 h-56 rounded-full object-cover shadow-lg"
+                    className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover shadow-lg"
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ delay: 0.2, duration: 0.6 }}
