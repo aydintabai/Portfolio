@@ -32,7 +32,7 @@ const ScrollDots = () => {
         <a
           key={id}
           href={`#${id}`}
-          className={`w-2.5 h-2.5 rounded-full transition-all ${
+          className={`w-2 h-2 md:w-2.5 md:h-2.5 rounded-full transition-all ${
             active === id ? "bg-gray-500" : "bg-gray-400 opacity-40"
           }`}
           aria-label={`Scroll to ${id}`}

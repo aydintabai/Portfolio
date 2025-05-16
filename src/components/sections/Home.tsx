@@ -42,7 +42,7 @@ const Home = () => {
                     </motion.div>
 
                     <motion.p
-                        className="text-black-400 text-base text-lg mb-6 max-w-md mx-auto md:max-w-full md:mx-0"
+                        className="text-black-400 text-base text-lg mb-6 max-w-md mx-auto px-10 md:max-w-full md:mx-0 md:px-0"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.5 }}
