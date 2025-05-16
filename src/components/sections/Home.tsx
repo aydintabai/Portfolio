@@ -42,7 +42,7 @@ const Home = () => {
                     </motion.div>
 
                     <motion.p
-                        className="text-black-400 text-base md:text-lg mb-6"
+                        className="text-black-400 text-base text-lg mb-6 max-w-md mx-auto md:max-w-full md:mx-0"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.5 }}
@@ -51,7 +51,7 @@ const Home = () => {
                     </motion.p>
 
                     <motion.div
-                        className="flex flex-col sm:flex-row gap-4 mb-6 justify-center md:justify-start"
+                        className="flex sm:flex-row gap-4 mb-6 justify-center md:justify-start"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.6 }}
