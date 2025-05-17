@@ -20,7 +20,7 @@ const Navbar = ({menuOpen, setMenuOpen}: NavbarProps) => {
             Aydin Tabatabai
           </a>
 
-          <div className="w-7 h-9 text-lg relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen((prev) => !prev)}>
+          <div className="w-7 h-8 text-lg relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen((prev) => !prev)}>
             &#9776;
           </div>
 
