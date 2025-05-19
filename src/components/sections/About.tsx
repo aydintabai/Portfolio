@@ -15,11 +15,11 @@ const About = () => {
                                 About Me
                             </h2>
                             <p className="text-lg mb-4 leading-relaxed">
-                                Hey! I'm Aydin, a senior at UC San Diego majoring in Cognitive Science with a specialization in Machine Learning and Neural Computation.
+                                Hello! I'm Aydin, a senior at UC San Diego majoring in Cognitive Science with a specialization in Machine Learning and Neural Computation and pursuing minors in both Computer Science and General Biology.
                                 I've always enjoyed breaking things apart to see how they work and now I spend my time building intelligent tools that make people's lives easier.
                             </p>
                             <p className="text-lg leading-relaxed">
-                                I've interned as an AI/ML engineer, fine-tuning LLMs and building full-stack features in real EMR systems. I'm passionate about using technology
+                                Most recently, I've interned as an AI/ML engineer at Soaper LLC, fine-tuning large language models and developing full-stack features in production EMR systems. I'm passionate about using technology
                                 to create meaningful, user-centered solutions and I'm always curious about what I can learn next.
                             </p>
                         </div>
