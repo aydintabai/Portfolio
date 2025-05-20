@@ -57,16 +57,18 @@ const Home = () => {
                         transition={{ delay: 0.6 }}
                     >
                         <a
-                            href="#experience"
+                            href="#about"
                             className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
                         >
-                            View Experience
+                            Learn more
                         </a>
                         <a
-                            href="#projects"
+                            href="/Aydin-Tabatabai-Resume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10"
                         >
-                            View Projects
+                            View Resume
                         </a>
                     </motion.div>
 
