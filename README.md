@@ -1,3 +1,3 @@
-# React + TypeScript + Vite
+# React + TypeScript Portfolio
 
 You can visit the portfolio at https://aydintabai.com
