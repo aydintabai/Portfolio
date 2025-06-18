@@ -5,6 +5,7 @@ import deepImage from "../../assets/deep.jpeg";
 import volleyImage from "../../assets/volley.jpeg";
 import classImage from "../../assets/classification.jpeg";
 import studyImage from "../../assets/study.jpeg";
+import rnnImage from "../../assets/rnn.jpeg";
 
 const Projects = () => {
   
@@ -44,6 +45,13 @@ const Projects = () => {
               subtitle="Conducted a comprehensive analysis on university course dataset to assess the impact of AI tools on academic performance."
               link="https://github.com/aydintabai/AI-Academic-Impact-Case-Study"
               tags={["Python", "NumPy", "Seaborn"]}
+            />
+            <ProjectCard
+              image={rnnImage}
+              title="Char-RNN Hyperparameter Study"
+              subtitle="Implemented and evaluated 9 character-level RNN models to study the effects of different training and architectural choices on text generation."
+              link="https://github.com/aydintabai/Char-RNN"
+              tags={["Python", "PyTorch", "Matplotlib"]}
             />
           </div>
         </div>
