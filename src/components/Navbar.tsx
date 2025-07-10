@@ -16,7 +16,7 @@ const Navbar = ({menuOpen, setMenuOpen}: NavbarProps) => {
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-black/10">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <a href="#home" className="text-xl font-semibold text-black">
+          <a href="#home" className="text-xl font-semibold text-black hover:text-blue-500 transition-colors">
             Aydin Tabatabai
           </a>
 
