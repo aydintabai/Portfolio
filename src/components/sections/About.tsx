@@ -15,7 +15,7 @@ const About = () => {
                                 About Me
                             </h2>
                             <p className="text-lg mb-4 leading-relaxed">
-                                Hello! I'm Aydin, a UC San Diego alumni who majored in Cognitive Science with a specialization in Machine Learning and minors in both Computer Science and General Biology.
+                                Hello! I'm Aydin, a UC San Diego alumnus who majored in Cognitive Science with a specialization in Machine Learning and minors in both Computer Science and General Biology.
                                 I've always been curious about how things work and now I spend my time building intelligent tools that make people's lives easier.
                             </p>
                             <p className="text-lg leading-relaxed">
