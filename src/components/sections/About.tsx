@@ -15,7 +15,7 @@ const About = () => {
                                 About Me
                             </h2>
                             <p className="text-lg mb-4 leading-relaxed">
-                                Hello! I'm Aydin, a senior at UC San Diego majoring in Cognitive Science with a specialization in Machine Learning and pursuing minors in Computer Science and General Biology.
+                                Hello! I'm Aydin, a UC San Diego alumni who majored in Cognitive Science with a specialization in Machine Learning and minors in both Computer Science and General Biology.
                                 I've always been curious about how things work and now I spend my time building intelligent tools that make people's lives easier.
                             </p>
                             <p className="text-lg leading-relaxed">
@@ -52,7 +52,7 @@ const About = () => {
                                 Libraries/Frameworks
                             </h3>
                             <p>
-                                PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, FastAPI, React, SwiftUI
+                                PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, FastAPI, React, SwiftUI, Tailwind CSS
                             </p>
                         </div>
 
@@ -61,7 +61,7 @@ const About = () => {
                                 Tools/Technologies
                             </h3>
                             <p>
-                                Git, GitHub, Azure, LaTeX
+                                Git, GitHub, Azure, Google Cloud, LaTeX
                             </p>
                         </div>
 
