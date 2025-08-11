@@ -4,7 +4,7 @@ import profilePic from "../../assets/headshot.jpeg";
 const About = () => {
 
     return (
-        <section id="about" className="scroll-mt-24 flex items-center justify-center pb-50 pt-30 md:pt-0">
+        <section id="about" className="scroll-mt-53 flex items-center justify-center pb-50 pt-30 md:pt-0">
             <RevealOnScroll>
                 <div className="max-w-6xl mx-auto px-10 md:px-4">
                     {/* Top: Bio and Image */}
