@@ -7,6 +7,8 @@ const Home = () => {
   
     return (
         <section id="home" className="min-h-screen flex items-center justify-center relative mt-8 md:mt-0">
+            <h1 className="sr-only">Aydin Tabatabai</h1>
+
             <motion.div
                 className="max-w-6xl w-full flex flex-col md:flex-row items-center justify-between gap-12"
                 initial={{ opacity: 0, y: 30 }}
