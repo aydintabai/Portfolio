@@ -1,3 +1,4 @@
+// src/components/VaraText.tsx
 import { useEffect } from "react";
 import Vara from "vara";
 
@@ -19,7 +20,7 @@ const VaraText = ({ text }: VaraTextProps) => {
           text: text,
           fontSize: 65,
           strokeWidth: 2.25,
-          color: "black",
+          color: "currentColor",
           duration:4000,
           delay:800,
           x:1,
@@ -27,12 +28,12 @@ const VaraText = ({ text }: VaraTextProps) => {
         },
       ]
     );
-  }, []);
+  }, [text]);
 
   return (
     <div
       id="vara-container"
-      className="w-[650px] whitespace-nowrap overflow-visible inline-block"
+      className="w-[650px] whitespace-nowrap overflow-visible inline-block text-black dark:text-white transition-colors duration-300"
     />
   );
 };

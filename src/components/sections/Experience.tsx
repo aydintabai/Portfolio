@@ -14,7 +14,7 @@ const Experience = () => {
             ],
             tech: ["Python", "PyTorch", "LoRA", "FastAPI", "PostgreSQL", "React", "Git"],
         },
-        ];
+    ];
 
     return (
         <section id="experience" className="scroll-mt-24 flex items-center justify-center pb-50">
@@ -26,15 +26,15 @@ const Experience = () => {
                     {experiences.map((exp, idx) => (
                         <div key={idx} className="relative">
                             {/* Experience Content */}
-                            <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-lg transition-all">
+                            <div className="bg-gray-50 dark:bg-neutral-900 border border-gray-200 dark:border-white/10 rounded-xl p-6 shadow-sm hover:shadow-lg transition-all">
                                 <div className="flex justify-between items-center mb-2">
-                                    <h3 className="text-xl font-semibold text-black">
+                                    <h3 className="text-xl font-semibold text-black dark:text-white">
                                         {exp.title} @<span className="text-blue-500"> {exp.company}</span>
                                     </h3>
-                                    <span className="text-sm text-gray-500">{exp.date}</span>
+                                    <span className="text-sm text-gray-500 dark:text-neutral-400">{exp.date}</span>
                                 </div>
 
-                                <ul className="list-disc list-inside text-gray-700 mb-4 space-y-1 text-lg">
+                                <ul className="list-disc list-inside text-gray-700 dark:text-neutral-300 mb-4 space-y-1 text-lg">
                                     {exp.description.map((point, i) => (
                                         <li key={i}>{point}</li>
                                     ))}
@@ -43,10 +43,10 @@ const Experience = () => {
                                 <div className="flex flex-wrap gap-2">
                                     {exp.tech.map((skill, i) => (
                                         <span
-                                        key={i}
-                                        className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                                            key={i}
+                                            className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
                                         >
-                                        {skill}
+                                            {skill}
                                         </span>
                                     ))}
                                 </div>

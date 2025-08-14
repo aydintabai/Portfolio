@@ -54,7 +54,17 @@
           "https://github.com/aydintabai"
         ]
       }
-      </script>
+    </script>
+
+    <script>
+      (() => {
+        try {
+          const s = localStorage.getItem('theme');
+          const d = s ? s === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (d) document.documentElement.classList.add('dark');
+        } catch {}
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
