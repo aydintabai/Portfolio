@@ -6,7 +6,7 @@ import VaraText from "../VaraText";
 const Home = () => {
   
     return (
-        <section id="home" className="min-h-screen flex items-center justify-center relative mt-8 md:mt-0">
+        <section id="home" className="min-h-screen flex items-center justify-center relative mt-16 md:mt-0">
             <h1 className="sr-only">Aydin Tabatabai</h1>
 
             <motion.div
@@ -26,7 +26,7 @@ const Home = () => {
 
                 <div className="text-center md:text-left flex-1">
                     <motion.h1
-                        className="text-5xl md:text-3xl font-semibold mb-3 leading-right"
+                        className="text-5xl md:text-3xl font-semibold mb-3 leading-right -mt-6 md:mt-0"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.3 }}

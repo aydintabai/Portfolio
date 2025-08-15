@@ -1,14 +1,17 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
-html { color-scheme: light dark; }
+html { 
+    color-scheme: light dark; 
+    scroll-behavior: smooth;
+
+}
 
 body {
     @apply bg-white text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100;
     margin: 0;
     padding: 0;
     font-family: "Outfit", sans-serif;
-    scroll-behavior: smooth;
 }
 
 .reveal {

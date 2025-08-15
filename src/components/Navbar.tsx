@@ -24,7 +24,7 @@ const Navbar = ({menuOpen, setMenuOpen}: NavbarProps) => {
           </a>
 
           <div 
-            className="w-7 h-8 text-lg relative cursor-pointer z-40 md:hidden" 
+            className="w-7 h-9 text-2xl relative cursor-pointer z-40 md:hidden" 
             onClick={() => setMenuOpen((prev) => !prev)} 
             aria-label="Open menu"
           >
