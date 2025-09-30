@@ -49,7 +49,7 @@ const Home = () => {
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.5 }}
                     >
-                        I am a passionate developer who has experience in machine learning, software engineering, and data science.
+                        I am a passionate developer with experience in machine learning, software engineering, and data science.
                     </motion.p>
 
                     <motion.div
