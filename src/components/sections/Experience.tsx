@@ -4,13 +4,26 @@ const Experience = () => {
     
     const experiences = [
         {
-            title: "Machine Learning / AI Intern",
-            company: "Soaper LLC",
-            date: "Jan 2025 – Present",
+            title: "Founding Software Engineer ",
+            company: "LucidFill",
+            date: "Jul 2025 - Present",
             description: [
-                "Fine-tuned multiple LLM models using LoRA to generate structured medical responses, leveraging Azure OpenAI to generate custom synthetic training datasets.",
-                "Improved model accuracy, consistency, and clinical alignment through iterative prompt engineering, data refinement, and validation set evaluation.",
-                "Built a FastAPI search endpoint using PostgreSQL full-text indexing to retrieve medical notes, labs, and imaging results, while creating Pytest tests to validate search results."
+                "Built the MVP of a mobile-first AI PDF editor, enabling users to scan, identify, and fill forms seamlessly via OCR and intelligent field detection.",
+                "Integrated multi-modal AI pipelines to auto-extract data from documents, support conversational form filling, and generate structured field mappings.",
+                "Developed scalable backend services enabling secure document handling, real-time interactions, and reliable export and distribution workflows.",
+                "Co-led product and engineering strategy, collaborating with cofounders to deliver user-focused features and reliable infrastructure."
+            ],
+            tech: ["Python", "FastAPI", "PostgreSQL", "React", "Git"],
+        },
+        {
+            title: "Machine Learning / AI Engineer",
+            company: "Soaper",
+            date: "Jan 2025 - Jul 2025",
+            description: [
+                "Designed and implemented an end-to-end AI-powered physician response system, reducing message response time and processing daily patient interactions with pre-generated, context-aware suggestions.",
+                "Developed a LoRA fine-tuning pipeline leveraging physician responses and feedback, continuously improving the model's accuracy and contextual relevance in response generation.",
+                "Ensured HIPAA-compliant handling of patient data by implementing secure data pipelines, role-based access controls, and thorough test coverage to maintain reliability and privacy.",
+                "Built an end-to-end clinical search tool for physicians to easily query across patient notes, labs, and imaging, improving the speed and accuracy of chart review."
             ],
             tech: ["Python", "PyTorch", "LoRA", "FastAPI", "PostgreSQL", "React", "Git"],
         },
@@ -24,7 +37,7 @@ const Experience = () => {
 
                     {/* <div className="relative border-l border-gray-300 pl-6"> */}
                     {experiences.map((exp, idx) => (
-                        <div key={idx} className="relative">
+                        <div key={idx} className="relative mb-10">
                             {/* Experience Content */}
                             <div className="bg-gray-50 dark:bg-neutral-900 border border-gray-200 dark:border-white/10 rounded-xl p-6 shadow-sm hover:shadow-lg transition-all">
                                 <div className="flex justify-between items-center mb-2">

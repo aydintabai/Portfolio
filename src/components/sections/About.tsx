@@ -19,7 +19,7 @@ const About = () => {
                                 I've always been curious about how things work and now I spend my time building intelligent tools that make people's lives easier.
                             </p>
                             <p className="text-lg leading-relaxed text-gray-700 dark:text-neutral-300">
-                                Most recently, I've interned as an AI/ML engineer at Soaper LLC, fine-tuning large language models and developing full-stack features in production EMR systems. I'm passionate about using technology
+                                Most recently, I've been a founding engineer at LucidFill and an AI/ML engineer at Soaper, developing full-stack and AI driven features in end-to-end systems. I'm passionate about using technology
                                 to create innovative, meaningful solutions and I'm always curious about what I can learn next.
                             </p>
                         </div>
