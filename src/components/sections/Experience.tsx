@@ -5,7 +5,7 @@ const Experience = () => {
     const experiences = [
         {
             title: "Founding Software Engineer ",
-            company: "LucidFill",
+            company: "HowDoIFill",
             date: "Jul 2025 - Present",
             description: [
                 "Built the MVP of a mobile-first AI PDF editor, enabling users to scan, identify, and fill forms seamlessly via OCR and intelligent field detection.",
