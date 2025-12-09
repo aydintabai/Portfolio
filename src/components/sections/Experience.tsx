@@ -8,7 +8,7 @@ const Experience = () => {
             company: "HowDoIFill",
             date: "Jul 2025 - Present",
             description: [
-                "Built the MVP of a mobile-first AI PDF editor, enabling users to scan, identify, and fill forms seamlessly via OCR and intelligent field detection.",
+                "Built the MVP of a mobile-first AI PDF editor, enabling users to scan, identify, and fill forms seamlessly via computer vision and intelligent field detection.",
                 "Integrated multi-modal AI pipelines to auto-extract data from documents, support conversational form filling, and generate structured field mappings.",
                 "Developed scalable backend services enabling secure document handling, real-time interactions, and reliable export and distribution workflows.",
                 "Co-led product and engineering strategy, collaborating with cofounders to deliver user-focused features and reliable infrastructure."
