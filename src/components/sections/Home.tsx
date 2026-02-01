@@ -88,7 +88,7 @@ const Home = () => {
                             <FaLinkedin className="hover:scale-120 transition-all duration-300" />
                         </a>
 
-                        <a href="mailto:aydintabai@gmail.com">
+                        <a href="mailto:aydin.tabai@gmail.com">
                             <FaEnvelope className="hover:scale-120 transition-all duration-300" />
                         </a>
                     </motion.div>
