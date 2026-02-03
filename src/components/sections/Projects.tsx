@@ -6,6 +6,7 @@ import volleyImage from "../../assets/volley.jpeg";
 import classImage from "../../assets/classification.jpeg";
 import studyImage from "../../assets/study.jpeg";
 import rnnImage from "../../assets/rnn.jpeg";
+import summarizerImage from "../../assets/summarizer.jpeg";
 
 const Projects = () => {
   
@@ -31,6 +32,13 @@ const Projects = () => {
               subtitle="AI agent trained in Gymnasium to play volleyball using 4 different Reinforcement Learning Algorithms."
               link="https://github.com/aydintabai/Volleyball-RL"
               tags={["Python", "PyTorch", "Gymnasium"]}
+            />
+            <ProjectCard
+              image={summarizerImage}
+              title="Content Summarizer Agent"
+              subtitle="An AI-powered content summarization tool that generates audience specific summaries from URLs or text content."
+              link="https://github.com/aydintabai/content-summarizer-agent"
+              tags={["Python", "TypeScript", "FastAPI", "Trafilatura"]}
             />
             <ProjectCard
               image={classImage}
