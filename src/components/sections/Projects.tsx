@@ -36,7 +36,7 @@ const Projects = () => {
             <ProjectCard
               image={summarizerImage}
               title="Content Summarizer Agent"
-              subtitle="An AI-powered content summarization tool that generates audience specific summaries from URLs or text content."
+              subtitle="An AI-powered content summarization tool that generates audience specific summaries from URLs or text content with an intuitive UI."
               link="https://github.com/aydintabai/content-summarizer-agent"
               tags={["Python", "TypeScript", "FastAPI", "Trafilatura"]}
             />
