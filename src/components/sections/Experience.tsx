@@ -8,7 +8,7 @@ const Experience = () => {
             company: "HowDoIFill",
             date: "Jul 2025 - Present",
             description: [
-                "Built the MVP of a mobile-first AI PDF editor, enabling users to scan, identify, and fill forms seamlessly via computer vision and intelligent field detection.",
+                "Architected an AI PDF management platform, enabling users to scan, identify, and fill forms seamlessly via computer vision and intelligent field detection.",
                 "Integrated multi-modal AI pipelines to auto-extract data from documents, support conversational form filling, and generate structured field mappings.",
                 "Developed scalable backend services enabling secure document handling, real-time interactions, and reliable export and distribution workflows.",
                 "Co-led product and engineering strategy, collaborating with cofounders to deliver user-focused features and reliable infrastructure."
@@ -20,10 +20,11 @@ const Experience = () => {
             company: "Soaper",
             date: "Jan 2025 - Jul 2025",
             description: [
-                "Designed and implemented an end-to-end AI-powered physician response system, reducing message response time and processing daily patient interactions with pre-generated, context-aware suggestions.",
-                "Developed a LoRA fine-tuning pipeline leveraging physician responses and feedback, continuously improving the model's accuracy and contextual relevance in response generation.",
+                "Designed and implemented an LLM-powered physician response generation system, structuring patient messages into context-aware prompts and generating draft replies using fine-tuned transformer models.",
+                "Built a LoRA fine-tuning pipeline using curated physician response data, performing supervised fine-tuning and validation to improve response relevance and clinical tone.",
+                "Developed structured evaluation workflows to assess output coherence, formatting reliability, and clinical appropriateness using controlled test sets.",
                 "Ensured HIPAA-compliant handling of patient data by implementing secure data pipelines, role-based access controls, and thorough test coverage to maintain reliability and privacy.",
-                "Built an end-to-end clinical search tool for physicians to easily query across patient notes, labs, and imaging, improving the speed and accuracy of chart review."
+                "Built an end-to-end clinical search tool leveraging PostgreSQL full-text search across notes, labs, and imaging to improve retrieval efficiency during chart review."
             ],
             tech: ["Python", "PyTorch", "LoRA", "FastAPI", "PostgreSQL", "React", "Git"],
         },
