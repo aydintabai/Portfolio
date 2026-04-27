@@ -6,7 +6,7 @@ const Experience = () => {
         {
             title: "Founding Software Engineer ",
             company: "HowDoIFill",
-            date: "Dec 2025 - Present",
+            date: "Aug 2025 - Present",
             description: [
                 "Architected an AI PDF management platform, enabling users to scan, identify, and fill forms seamlessly via computer vision and intelligent field detection.",
                 "Integrated multi-modal AI pipelines to auto-extract data from documents, support conversational form filling, and generate structured field mappings.",
@@ -18,7 +18,7 @@ const Experience = () => {
         {
             title: "Machine Learning / AI Engineer",
             company: "Soaper",
-            date: "May 2025 - Dec 2025",
+            date: "Jan 2025 - Aug 2025",
             description: [
                 "Designed and implemented an LLM-powered physician response generation system, structuring patient messages into context-aware prompts and generating draft replies using fine-tuned transformer models.",
                 "Built a LoRA fine-tuning pipeline using curated physician response data, performing supervised fine-tuning and validation to improve response relevance and clinical tone.",

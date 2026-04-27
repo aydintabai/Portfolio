@@ -43,7 +43,16 @@ const About = () => {
                                 Languages
                             </h3>
                             <p className="text-gray-700 dark:text-neutral-300">
-                                Python, Java, C/C++, SQL (Postgres), JavaScript/TypeScript, Swift, Bash, HTML/CSS, MATLAB
+                                Python, JavaScript/TypeScript, SQL, Java, C/C++, Swift, Bash
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 className="text-lg font-bold text-base text-black mb-2 text-black dark:text-white">
+                                AI/ML
+                            </h3>
+                            <p className="text-gray-700 dark:text-neutral-300">
+                                LangChain, CrewAI, RAG, LoRA/QLoRA Fine-tuning, PyTorch
                             </p>
                         </div>
 
@@ -52,7 +61,7 @@ const About = () => {
                                 Libraries/Frameworks
                             </h3>
                             <p className="text-gray-700 dark:text-neutral-300">
-                                PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, FastAPI, React, SwiftUI, Tailwind CSS
+                                FastAPI, React.js, Next.js, REST APIs, Tailwind CSS, SwiftUI
                             </p>
                         </div>
 
@@ -61,16 +70,7 @@ const About = () => {
                                 Tools/Technologies
                             </h3>
                             <p className="text-gray-700 dark:text-neutral-300">
-                                Git, GitHub, Azure, Google Cloud, LaTeX
-                            </p>
-                        </div>
-
-                        <div>
-                            <h3 className="text-lg font-bold text-base text-black mb-2 text-black dark:text-white">
-                                Soft Skills
-                            </h3>
-                            <p className="text-gray-700 dark:text-neutral-300">
-                                Communication, Creative Problem Solving, Leadership
+                                PostgreSQL, Git, GitHub Actions (CI/CD), AWS (EC2, S3), GCP (Vertex AI, GCS), Redis, Firebase, Supabase, Vercel
                             </p>
                         </div>
                     </div>
