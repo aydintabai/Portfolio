@@ -16,7 +16,7 @@ const Experience = () => {
             tech: ["Python", "FastAPI", "PostgreSQL", "React", "Git"],
         },
         {
-            title: "Machine Learning / AI Engineer",
+            title: "Machine Learning / AI Engineer Intern",
             company: "Soaper",
             date: "Jan 2025 - Aug 2025",
             description: [
